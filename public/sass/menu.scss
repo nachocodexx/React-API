@@ -1,0 +1,34 @@
+a{text-decoration: none;}
+ul{list-style-type: none;}
+
+
+.header{
+  background: steelblue;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+
+.menu,.menu__ul{height: 100%;}
+
+.menu__ul{
+  height: 100%;
+  display: flex;
+
+}
+.menu__li{
+  display: flex;
+  align-items: center;
+  transition: all ease 0.5s;
+  &:hover{
+    background-color: lighten(steelblue, 5);
+    box-shadow: inset 0px -5px 0px rgba(#000,0.3);
+  }
+}
+.menu__a{
+  padding: 10px;
+  display: block;
+  color: #fff;
+}
